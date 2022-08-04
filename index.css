@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav .container {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.header-img {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1_xr5lrUmIxGNQXYlfJpMZZSGS2QdMyrv2Q&usqp=CAU);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)); */
+
+
+}
+
+.header-img a {
+    display: block;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header-img a:hover {
+    color: aliceblue;
+    transition: 0.2s;
+    border-bottom: 2px solid white;
+}
+
+.navbar-nav a {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.zomato-section {
+    /* position: absolute; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vw; */
+    padding: 100px;
+
+    /* background-color: #000; */
+    /* margin: 50px; */
+}
+
+.header-tag h4 {
+
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    /* padding-top: 50px; */
+
+}
+
+.section1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.search-box {
+    border: none;
+    padding-left: 20px;
+    outline: none;
+    width: 30vw;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+.search-btn {
+    border: none;
+    width: 130px;
+    height: 60px;
+    background-color: red;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* ===========================card-section=================== */
+
+.card-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-section .card {
+    border-radius: 20px;
+    margin: 0;
+    border-radius: roun;
+    border: 2px solid #ccc;
+    /* box-shadow: 2px, 2px, 20px, rgb(110, 109, 109); */
+    /* box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1), 0 5px 10px 0 rgba(0,0,0,0.1); */
+    transition: all 0.3s;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.card img{
+    /* width:fit-content; */
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 1px, 1px, 10px, #000;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1), 0 5px 10px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.card-title {
+    text-align: center;
+}
+
+/* ====================city-section================== */
+
+.city-section {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.city-section p{
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+.city-block {
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid #ccc;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+.city-block:hover{
+    box-shadow: 1px 1px 5px #ccc;
+    cursor: pointer;
+}
+
+.city-block p {
+
+    margin: 0;
+    color: rgb(43, 42, 42);
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.city-arrow {
+    margin-left: auto;
+    margin-right: 20px;
+    color:rgb(43, 42, 42) ;
+}
+/* =======================footer==================== */
+
+.footer{
+    background-color:antiquewhite;
+    padding: 30px;
+}
+.footer h1{
+    font-size: 45px;
+}
+.mobile-img{
+    text-align: right;
+    padding-right: 10px;
+    box-shadow:1px,1px,5px #ccc;
+}
+.footer-para{
+    font-size: small;
+    
+}
+.footer-input{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: small;
+    height: 30px;
+    margin: 0;
+}
+.footer-btn{
+  
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: small;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+}
+.store-img img{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
